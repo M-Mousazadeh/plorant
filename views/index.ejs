@@ -1,0 +1,578 @@
+<%- include('./includes/header.ejs') %>
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="#page-top"
+      ><img src="/assets/PNG/Asset 1.png"  width="100px" height="80px" alt="..."
+    /></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      منو
+      <i class="fa fa-bars ms-1"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#services">خدمات</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">نمونه غذا ها</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#about">درباره ما</a></li>
+        <li class="nav-item"><a class="nav-link" href="#team">تیم متخصص ما</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">پل ارتباطی</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead">
+  <div class="container">
+    <div class="masthead-subheading">به رستوران سالم ما خوش آمدید</div>
+    <div class="masthead-heading text-uppercase">خوشحالیم که در خدمت شما هستیم</div>
+    <a class="btn btn-primary btn-xl text-uppercase" href="#services"
+      >ادامه</a
+    >
+  </div>
+</header>
+<!-- Services-->
+<section class="page-section" id="services">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">خدمات</h2>
+      <h3 class="section-subheading text-muted">
+        سلامتی شما برای ما ارزشمند است
+      </h3>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-cutlery fa-stack-1x fa-inverse">
+          </i>
+        </span>
+        <h4 class="my-3">ارائه غذا سالم</h4>
+        <p class="text-muted">
+          ما به غذایی که شما میل میکنید اهمیت میدهیم و تمام سعی خودمان را میکنیم غذایی سالم با طعم لذید برای شما فراهم آوریم
+        </p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-motorcycle fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="my-3">همه جا حاضر هستیم</h4>
+        <p class="text-muted">
+          در هر جایی که باشید میتوانید با چند کلیک از خدمات ما بهرمند شوید
+        </p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i style="font-family:Font Awesome 5 Pro!important;" class="fa fa-medkit fa-stack-1x fa-inverse">
+          </i>
+        </span>
+        <h4 class="my-3">مشاوره در زمینه دارو های گیاهی</h4>
+        <p class="text-muted">
+          با داشتن نیرویی متخصص در زمینه طب سنتی، اینجا هستیم تا با مشاوره دادن سلامتی را به شما عرضه کنیم
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Portfolio Grid-->
+<section class="page-section bg-light" id="portfolio">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">نمونه غذا ها</h2>
+      <h3 class="section-subheading text-muted">
+        تغذیه کامل و سالم را با ما تجربه کنید
+      </h3>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <!-- Portfolio item 1-->
+        <div class="portfolio-item">
+          <a
+            class="portfolio-link"
+            data-bs-toggle="modal"
+            href="#portfolioModal1"
+          >
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="/assets/img/ghorme.jpg" width="600" style="height: 450;" alt="..." />
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">قورمه مزولتو</div>
+            <div class="portfolio-caption-subheading text-muted">
+              نوش دارو پلورانت
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <!-- Portfolio item 2-->
+        <div class="portfolio-item">
+          <a
+            class="portfolio-link"
+            data-bs-toggle="modal"
+            href="#portfolioModal1"
+          >
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="/assets/img/ghorabe.jpg" width="600" style="height: 450;" alt="..." />
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">دکتر غرابه</div>
+            <div class="portfolio-caption-subheading text-muted">
+              از مراجعه به دکتر بی نیاز شوید
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <!-- Portfolio item 3-->
+        <div class="portfolio-item">
+          <a
+            class="portfolio-link"
+            data-bs-toggle="modal"
+            href="#portfolioModal1"
+          >
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="/assets/img/damnosh.jpg" width="600" style="height: 450;" alt="..." />
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">دمنوش پلورانت</div>
+            <div class="portfolio-caption-subheading text-muted">
+              دمنوش همه فن حریف
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About-->
+<section class="page-section" id="about">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">درباره ما</h2>
+      <h3 class="section-subheading text-muted">
+        ما مثل یک خانواده هستیم
+      </h3>
+    </div>
+    <ul class="timeline">
+      <li>
+        <div class="timeline-image">
+          <img
+            class="rounded-circle img-fluid"
+            src="assets/img/about/1.jpg"
+            alt="..."
+          />
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4>شروع کار ما</h4>
+            <h4 class="subheading">چگونه شروع شد</h4>
+          </div>
+          <div class="timeline-body">
+            <p class="text-muted">
+              این روز ها که مشغله ما بیشتر از روز قبل است، دیگر نمیتوانیم وقتی برای فکر کردن به غذایی که میل میکنیم بگذاریم
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img
+            class="rounded-circle img-fluid"
+            src="assets/img/about/2.jpg"
+            alt="..."
+          />
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4>ایده سالم ما</h4>
+            <h4 class="subheading">زندگی  سالم برای همه</h4>
+          </div>
+          <div class="timeline-body">
+            <p class="text-muted">
+              ایده ما در ابتدا ارائه دارو های گیاهی بود، دارو های طبی اما با خاصیت درمانی سریع
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-image">
+          <img
+            class="rounded-circle img-fluid"
+            src="assets/img/about/3.jpg"
+            alt="..."
+          />
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4>تغییر مسیر ما</h4>
+            <h4 class="subheading">تغییری متحول کننده</h4>
+          </div>
+          <div class="timeline-body">
+            <p class="text-muted">
+              ما تصمیم گرفتیم به جای ارائه دارو گیاهی، غذایی را به مشتریانمان ارائه کنیم که هم لذیذ باشد و هم سالم
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img
+            class="rounded-circle img-fluid"
+            src="assets/img/about/4.jpg"
+            alt="..."
+          />
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4>الان چه میکنیم</h4>
+            <h4 class="subheading">مسیری سالم</h4>
+          </div>
+          <div class="timeline-body">
+            <p class="text-muted">
+              در حال حاضر با داشتن نیروی متخصص ما غذا هایی متنوع با خاصیت های درمانی را ارائه میکنیم تا بتوانیم جامعه ای سالم داشته باشیم
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <h3 style="text-align: center; margin-top: 20px;">
+            با ما
+            <br />
+            همراه
+            <br />
+            باشید
+          </h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- Team-->
+<section class="page-section bg-light" id="team">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">تیم متخصص ما</h2>
+      <h3 class="section-subheading text-muted">
+        سلامتی شما الویت همیشگی تیم ما است
+      </h3>
+    </div>
+    <div class="row">
+      <div class="col-lg-2" style="margin: 0 0 0 20px;">
+        <div class="team-member">
+          <img
+            class="mx-auto rounded-circle"
+            src="/assets/img/team/1.jpg"
+            alt="..."
+          />
+          <h4>شراره جنت رستمی</h4>
+          <p class="text-muted">متخصص طبی</p>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Parveen Anand Twitter Profile"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Parveen Anand Facebook Profile"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Parveen Anand LinkedIn Profile"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <div class="col-lg-2" style="margin: 0 20px;">
+        <div class="team-member">
+          <img
+            class="mx-auto rounded-circle"
+            src="assets/img/team/2.jpg"
+            alt="..."
+          />
+          <h4>ترنم جوربنیان</h4>
+          <p class="text-muted">طراحی / دکوریتور</p>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Diana Petersen Twitter Profile"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Diana Petersen Facebook Profile"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Diana Petersen LinkedIn Profile"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <div class="col-lg-2" style="margin: 0 20px;">
+        <div class="team-member">
+          <img
+            class="mx-auto rounded-circle"
+            src="assets/img/team/4.jpg"
+            alt="..."
+          />
+          <h4>مبینا علیزاده</h4>
+          <p class="text-muted">سرآشپز</p>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Diana Petersen Twitter Profile"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Diana Petersen Facebook Profile"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Diana Petersen LinkedIn Profile"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <div class="col-lg-2" style="margin: 0 20px;">
+        <div class="team-member">
+          <img
+            class="mx-auto rounded-circle"
+            src="assets/img/team/5.jpg"
+            alt="..."
+          />
+          <h4>روزا صادقی نیا</h4>
+          <p class="text-muted">بازاریاب</p>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Diana Petersen Twitter Profile"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Diana Petersen Facebook Profile"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Diana Petersen LinkedIn Profile"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <div class="col-lg-2" style="margin: 0 20px;">
+        <div class="team-member">
+          <img
+            class="mx-auto rounded-circle"
+            src="assets/img/team/3.jpg"
+            alt="..."
+          />
+          <h4>محمدرضا موسی زاده</h4>
+          <p class="text-muted">مسئول تیم فنی / پشتیبان</p>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Larry Parker Twitter Profile"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Larry Parker Facebook Profile"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-dark btn-social mx-2"
+            href="#!"
+            aria-label="Larry Parker LinkedIn Profile"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <p class="large text-muted">
+          تیم متخصص ما بیشتر از همیشه مشتاق عرضه خدمات سالم به شما میباشد. به ما اعتماد کنید
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact-->
+<section class="page-section" id="contact">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">تماس با ما</h2>
+      <h3 class="section-subheading text-muted">
+        ما همیشه برای پاسخگویی به شما حاضریم
+      </h3>
+    </div>
+    <!-- * * * * * * * * * * * * * * *-->
+    <!-- * * SB Forms Contact Form * *-->
+    <!-- * * * * * * * * * * * * * * *-->
+    <!-- This form is pre-integrated with SB Forms.-->
+    <!-- To make this form functional, sign up at-->
+    <!-- https://startbootstrap.com/solution/contact-forms-->
+    <!-- to get an API token!-->
+    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+      <div class="row align-items-stretch mb-5">
+        <div class="col-md-6">
+          <div class="form-group">
+            <!-- Name input-->
+            <input
+              class="form-control"
+              id="name"
+              type="text"
+              placeholder="* نام و نام خانوادگی"
+              data-sb-validations="required"
+            />
+            <div class="invalid-feedback" data-sb-feedback="name:required">
+              وارد کردن یک نام اجباری میباشد
+            </div>
+          </div>
+          <div class="form-group">
+            <!-- Email address input-->
+            <input
+              class="form-control"
+              id="email"
+              type="email"
+              placeholder="* پست الکترونیک"
+              data-sb-validations="required,email"
+            />
+            <div class="invalid-feedback" data-sb-feedback="email:required">
+              وارد کردن پست الکترونیک اجباری میباشد
+            </div>
+            <div class="invalid-feedback" data-sb-feedback="email:email">
+              پست الکترونیک صحیح نمیباشد
+            </div>
+          </div>
+          <div class="form-group mb-md-0">
+            <!-- Phone number input-->
+            <input
+              class="form-control"
+              id="phone"
+              type="tel"
+              placeholder="* شماره تماس"
+              data-sb-validations="required"
+            />
+            <div class="invalid-feedback" data-sb-feedback="phone:required">
+              وارد کردن شماره تلفن اجباری میباشد
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group form-group-textarea mb-md-0">
+            <!-- Message input-->
+            <textarea
+              class="form-control"
+              id="message"
+              placeholder="* متن پیام شما"
+              data-sb-validations="required"
+            ></textarea>
+            <div class="invalid-feedback" data-sb-feedback="message:required">
+              وارد کردن پیام اجباری است
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Submit success message-->
+      <!---->
+      <!-- This is what your users will see when the form-->
+      <!-- has successfully submitted-->
+      <div class="d-none" id="submitSuccessMessage">
+        <div class="text-center text-white mb-3">
+          <div class="fw-bolder">پیام ارسال شد</div>
+        </div>
+      </div>
+      <!-- Submit error message-->
+      <!---->
+      <!-- This is what your users will see when there is-->
+      <!-- an error submitting the form-->
+      <div class="d-none" id="submitErrorMessage">
+        <div class="text-center text-danger mb-3">خطا! پیام ارسال نشد</div>
+      </div>
+      <!-- Submit Button-->
+      <div class="text-center">
+        <button
+          class="btn btn-primary btn-xl text-uppercase disabled"
+          id="submitButton"
+          type="submit"
+        >
+          ارسال پیام
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+<!-- Footer-->
+<footer class="footer py-4">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-4 text-lg-start">
+        کپی رایت &copy; تمامی حقوق برای پلورانت محفوذ میباشد
+      </div>
+      <div class="col-lg-4 my-3 my-lg-0">
+        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"
+          ><i class="fa fa-telegram"></i
+        ></a>
+        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"
+          ><i class="fa fa-whatsapp"></i
+        ></a>
+        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"
+          ><i class="fa fa-instagram"></i
+        ></a>
+      </div>
+      <div class="col-lg-4 text-lg-end">
+        <a class="link-dark text-decoration-none me-3" href="#!"
+          >حریم خصوصی</a
+        >
+        <a class="link-dark text-decoration-none" style="margin-right: 20px;" href="#!">قوانین</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<%- include('./includes/footer.ejs') %>
